@@ -52,7 +52,6 @@ const Cart = ({cart,setCart}) => {
             alignItems:'center'
   
           }}>
-            <button className='btn btn-warning mx-5 '>CheckOut</button>
             <button onClick={()=>setCart("")} className='btn btn-danger'>Clear Cart</button>
           </div>
         )
